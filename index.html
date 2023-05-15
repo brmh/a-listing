@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline Example with <div></title>
+    <style>
+       @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; 
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.chukka-boots {
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  line-height: 35px;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+.cards-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.known-for-their-versati {
+  color: rgba(151, 157, 173, 1);
+  font-size: 15px;
+  line-height: 150%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.frame-3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-4 {
+  width: 50%;
+  height: 100%;
+}
+
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.made-with-full-grain-lea {
+  width: 100%;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+.we-use-premium-quality-l {
+  width: 100%;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+ 
+
+.frame-9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.moisture-and-odour-resi {
+  width: fit-content;
+  height: fit-content;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.our-shoes-are-aperfect-b {
+  width: 100%;
+  height: fit-content;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.frame-8 {
+  width: 50%;
+  height: 100%;
+}
+
+.frame-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(254, 250, 244, 1);
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.leather-comfort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 110%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.7px;
+  text-transform: uppercase;
+}
+
+.our-shoes-are-engineere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.frame-11 {
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.frame-17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 4px 24px 38px;
+  box-sizing: border-box;
+  background-color: rgba(254, 250, 244, 1);
+}
+.cards-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.breathable-leather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.rectangle {
+  width: 100%;
+  height: fit-content;
+}
+
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.thermoplastic-elastom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  color: rgba(0, 0, 0, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.rectangle-1 {
+  width: 100%;
+  height: fit-content;
+}
+
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-18 {
+  width: 40%;
+  height: 100%;
+}
+
+.frame-19 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.easy-to-maintain {
+  width: 100%;
+  height: 100%;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+.we-use-premium-quality-l-1 {
+  width: 100%;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.frame-23 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: fit-content;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame-21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.premium-round-waxed-cot {
+  width: 100%;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.our-shoes-are-aperfect-b-1 {
+  width: 100%;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.frame-22 {
+  width: 40%;
+  height: 100%;
+}
+
+.frame-26 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.cards-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-25 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  padding: 32px 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(254, 250, 244, 1);
+}
+.frame-24 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.comes-with-shoe-care-acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 120%;
+  font-family: Barlow, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -0.6px;
+}
+
+.chat-with-specialists-n {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(36, 32, 55, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+._-261 {
+  width: 40%;
+  height: fit-content;
+  mix-blend-mode: multiply;
+}
+
+.cards-8 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 9px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(238, 238, 238, 1);
+}
+.frame-28 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+  padding: 48px 24px;
+  box-sizing: border-box;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.fast-delivery {
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 150%;
+  font-family: Barlow, sans-serif;
+  font-weight: 600;
+}
+
+.we-re-committed-to-provi {
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+}
+
+.frame-29 {
+  width: 40%;
+  height: 100%;
+}
+
+.frame-32 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: fit-content;
+  padding: 32px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-31 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.shop-our-collection-tod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(36, 32, 55, 1);
+  font-size: 4.1vw;
+  line-height: 140%;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.experience-the-conveni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(151, 157, 173, 1);
+  font-size: 2.6vw;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+  @media only screen and (min-width: 1101px) {
+  .made-with-full-grain-lea,
+  .moisture-and-odour-resi,
+  .leather-comfort,
+  .breathable-leather,
+  .thermoplastic-elastom,
+  .easy-to-maintain,
+  .premium-round-waxed-cot,
+  .comes-with-shoe-care-acc,
+  .fast-delivery,
+  .shop-our-collection-tod
+    {
+    font-size: 2.1vw;
+  }
+
+  .we-use-premium-quality-l,
+    .we-use-premium-quality-l-1,
+    .our-shoes-are-aperfect-b-1,
+  .our-shoes-are-aperfect-b,
+  .our-shoes-are-engineere,
+    .chat-with-specialists-n,
+  .we-re-committed-to-provi,
+    .experience-the-conveni{
+    font-size: 1.3vw;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of same it was */
+@media only screen and (max-width: 1100px) {
+  .chukka-boots { font-size: 18px; }
+  .known-for-their-versatility { font-size: 15px; }
+  .made-with-full-grain-lea { font-size: 4.1vw; }
+  .we-use-premium-quality-l { font-size: 2.6vw; }
+  .moisture-and-odour-resi { font-size: 4.1vw; }
+  .our-shoes-are-aperfect-b { font-size: 2.6vw; }
+  .leather-comfort { font-size: 4.1vw; }
+  .our-shoes-are-engineere { font-size: 2.6vw; }
+  .breathable-leather { font-size: 4.1vw; }
+  .thermoplastic-elastom { font-size: 4.1vw; }
+  .easy-to-maintain { font-size: 4.1vw; }
+  .we-use-premium-quality-l-1 { font-size: 2.6vw; }
+  .premium-round-waxed-cot { font-size: 4.1vw; }
+  .our-shoes-are-aperfect-b-1 { font-size: 2.6vw; }
+  .comes-with-shoe-care-acc { font-size: 4.1vw; }
+  .chat-with-specialists-n { font-size: 2.6vw; }
+  .fast-delivery { font-size: 4.1vw; }
+  .we-re-committed-to-provi { font-size: 2.6vw; }
+  .shop-our-collection-tod { font-size: 4.1vw; }
+  .experience-the-conveni { font-size: 2.6vw; }
+}
+
+    </style>
+</head>
+<body>
+
+<meta charset="utf-8" />
+<div style="text-align: start;" class="template clip-contents">
+<div class="frame-2 clip-contents">
+<div class="cards clip-contents">
+<div class="frame clip-contents">
+  <button id="getHtml">Get HTML</button>
+
+<p class="chukka-boots" contenteditable="true">Chukka Bootss</p>
+</div>
+</div>
+<div class="cards-1 clip-contents">
+<div class="frame-1 clip-contents">
+<p contenteditable="true" class="known-for-their-versati">Known for their versatility, the Chukka boots go well with all types of pants- jeans, chinos, formal trousers, cargos, you name it. These boots are handcrafted from top grain imported suede leather with the inner area of the shoes made from fresh sheep lining. They also come with anti-skid sole.</p>
+</div>
+</div>
+</div>
+<img  style="float: none;" src="https://cdn.shopify.com/s/files/1/0619/8106/5380/files/top_b2833b2c-300d-4203-a221-aea8807f2a32.png?v=1682807798" alt="Not Found" class="frame-3" />
+  <input type="checkbox" id="my-checkbox1" checked><p id="section-text">sec1</p>
+<div id="toggle-div1" class="frame-6 clip-contents">
+<div class="cards-2 clip-contents"><img id="img1" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11157?alt=media&amp;token=04a1218d-8077-400f-a5ed-8124e654bde7" alt="Not Found" class="frame-4" />
+<div class="frame-5 clip-contents">
+<p contenteditable="true" class="made-with-full-grain-lea">Made  with Full grain Leather</p>
+<p contenteditable="true" class="we-use-premium-quality-l">We use premium quality leather in making our formal shoes.</p>  <p id="imgUrl1" class="chukka-boots" contenteditable="true"></p>
+</div>
+</div>
+</div>
+  
+<div id="toggle-div2" class="frame-9 clip-contents">
+<div class="cards-3 clip-contents">
+<div class="frame-7 clip-contents">
+<p contenteditable="true" class="moisture-and-odour-resi">Moisture And Odour ResistantMaterials</p>
+<p contenteditable="true" class="our-shoes-are-aperfect-b">Our shoes are a perfect blend of classic and contemporary styles, making them the perfect choice for the modern man.</p>
+  <p id="imgUrl2" class="chukka-boots" contenteditable="true"></p>
+  
+</div>
+<img id="img2" src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11167?alt=media&amp;token=6aa9fbe8-82b5-4d26-ad1a-4344cee2a43a" alt="Not Found" class="frame-8" /></div>
+</div>
+<div class="frame-12 clip-contents">
+<div class="frame-10 clip-contents">
+<p contenteditable="true" class="leather-comfort">LEATHER - COMFORT</p>
+<p contenteditable="true" class="our-shoes-are-engineere">Our shoes are engineered to provide you all day comfort.</p>
+</div>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11219?alt=media&amp;token=211ba894-9a05-4fc7-9fae-b24db76b1e9d" alt="Not Found" class="frame-11" /></div>
+<div class="frame-17 clip-contents">
+<div class="cards-4 clip-contents">
+<div class="frame-14 clip-contents">
+<div class="frame-13 clip-contents">
+<p  contenteditable="true" class="breathable-leather">Breathable Leather</p>
+</div>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11179?alt=media&amp;token=87b5f460-99f0-47ef-8819-bd1c66438304" alt="Not Found" class="rectangle" /></div>
+<div class="frame-16 clip-contents">
+<div class="frame-15 clip-contents">
+<p  contenteditable="true" class="thermoplastic-elastom">Thermoplastic Elastomers Sole</p>
+</div>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11184?alt=media&amp;token=65f74e9d-146a-4828-ac17-36456b864c10" alt="Not Found" class="rectangle-1" /></div>
+</div>
+</div>
+<div class="frame-20 clip-contents">
+<div class="cards-5 clip-contents"><img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11187?alt=media&amp;token=7fb788c3-6108-40f1-bb19-9be6e9e44adb" alt="Not Found" class="frame-18" />
+<div class="frame-19 clip-contents">
+<p contenteditable="true" class="easy-to-maintain">Easy to Maintain1</p>
+<p contenteditable="true" class="we-use-premium-quality-l-1">We use premium quality leather in making our formal shoes.</p>
+</div>
+</div>
+</div>
+<div class="frame-23 clip-contents">
+<div class="cards-6 clip-contents">
+<div class="frame-21 clip-contents">
+<p contenteditable="true" class="premium-round-waxed-cot">Premium Round Waxed Cotton Laces</p>
+<p contenteditable="true" class="our-shoes-are-aperfect-b-1">Our shoes are a perfect blend of classic and contemporary styles, making them the perfect choice for the modern man.</p>
+</div>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11197?alt=media&amp;token=90b5f373-816a-426c-a4a8-de6a447649ca" alt="Not Found" class="frame-22" /></div>
+</div>
+<div class="frame-26 clip-contents">
+<div class="cards-7 clip-contents">
+<div class="frame-25 clip-contents">
+<div class="frame-24 clip-contents">
+<p contenteditable="true" class="comes-with-shoe-care-acc">Comes with Shoe care accessories</p>
+<p contenteditable="true" class="chat-with-specialists-n">Chat with Specialists. No-contact delivery. All right here.</p>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11206?alt=media&amp;token=8ce3a056-5c01-45cc-8fc3-56edb0057526" alt="Not Found" class="_-261" /></div>
+</div>
+</div>
+</div>
+<div class="cards-8 clip-contents">
+<div class="frame-28 clip-contents">
+<div class="frame-27 clip-contents">
+<p contenteditable="true" class="fast-delivery">FAST DELIVERY</p>
+<p contenteditable="true" class="we-re-committed-to-provi">We're committed to providing our customers with the best possible shopping experience. We work extra hard to make sure you receive your orders stress-free &amp; on time.</p>
+</div>
+</div>
+<img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/3vj1lwwlh6n-2497%3A11213?alt=media&amp;token=30e28e75-b270-46fc-8679-bf6804c5e69a" alt="Not Found" class="frame-29" /></div>
+<div class="frame-32 clip-contents">
+<div class="frame-31 clip-contents">
+<p class="shop-our-collection-tod">Shop our collection today</p>
+<p class="experience-the-conveni">&amp; experience the convenience of fast, hassle-free delivery.</p>
+</div>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const imgElement = document.getElementById('img1');
+  const imgElement2 = document.getElementById('img2');
+  const srcAttribute = imgElement.getAttribute('src');
+  const srcAttribute2 = imgElement2.getAttribute('src');
+  document.getElementById('imgUrl1').textContent=srcAttribute;
+  document.getElementById('imgUrl2').textContent=srcAttribute2;
+});
+
+const paragraphElement = document.getElementById('imgUrl1');
+const paragraphElement2 = document.getElementById('imgUrl2');
+paragraphElement.addEventListener('input', function() {
+  updateImage(1);
+});
+paragraphElement2.addEventListener('input', function() {
+  updateImage(2);
+});
+
+const getHtmlButton = document.getElementById("getHtml");
+getHtmlButton.addEventListener("click", getHtmlFn);
+
+
+function getHtmlFn() {
+  hideExport();
+  let html = document.documentElement.outerHTML;
+  html = html.replaceAll('contenteditable="true"', 'contenteditable="false"');
+console.log("CHECK : ", html);
+  // Create a temporary textarea element
+  const tempTextarea = document.createElement('textarea');
+  tempTextarea.value = html;
+
+  // Append the textarea to the document
+  document.body.appendChild(tempTextarea);
+
+  // Copy the plain text from the textarea to the clipboard
+  tempTextarea.select();
+  document.execCommand('copy');
+
+  // Remove the temporary textarea from the document
+  document.body.removeChild(tempTextarea);
+
+  console.log('HTML copied to clipboard');
+}
+
+
+function updateImage(i) { 
+  if(i == 1) {
+    console.log("TEXT : ", paragraphElement.textContent);
+    const imageElement =  document.getElementById('img1');
+    imageElement.setAttribute('src', paragraphElement.textContent);
+  }
+  else if(i == 2) {
+    const imageElement =  document.getElementById('img2');
+    imageElement.setAttribute('src', paragraphElement2.textContent);
+  }
+}
+//toggle switch 1
+const checkboxElement = document.getElementById('my-checkbox1');
+const divElement = document.getElementById('toggle-div1');
+
+checkboxElement.addEventListener('change', function() {
+    if (checkboxElement.checked) {
+      divElement.style.display = 'block';
+    } else {
+      divElement.style.display = 'none';
+    }
+  });
+
+function hideExport() {
+  const getHtmlButton = document.getElementById("getHtml");
+  const getUrlId = document.getElementById("imgUrl1");
+  const getCheckboxId1 = document.getElementById("my-checkbox1");
+  const getSecTextId = document.getElementById("section-text");
+  
+  getHtmlButton.style.display = 'none';
+  getUrlId.style.display = 'none';
+  getCheckboxId1.style.display = 'none';
+  getSecTextId.style.display = 'none';
+
+}
+</script>
+</body>
+</html>
